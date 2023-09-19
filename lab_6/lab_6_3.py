@@ -8,7 +8,7 @@ def main():
         with open(filename) as file:
             contents[filename] = file.read()
     print(contents)
-    with open(r"folder/dict.pkl", "wb") as file:
+    with open(r"folder\dict.pkl", "wb") as file:
         pickle.dump(contents, file)
 
 
