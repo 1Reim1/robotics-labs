@@ -3,9 +3,9 @@ import random
 
 def main():
     number = random.randint(1, 9)
-    while int(input("Вгадай число: ")) != number:
+    while int(input("Guess the number: ")) != number:
         pass
-    print("Ви виграли")
+    print("You won")
 
 
 if __name__ == "__main__":

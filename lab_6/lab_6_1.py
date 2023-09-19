@@ -1,12 +1,12 @@
 import os
 
-DIRECTORY = "6"
+DIRECTORY = "folder"
 
 
 def main():
-    mode = input("""1 - тільки файли
-2 - тільки папки
-3 - все
+    mode = input("""1 - only files
+2 - only folders
+3 - all
 """)
     filenames = os.listdir(DIRECTORY)
     if mode == "1":

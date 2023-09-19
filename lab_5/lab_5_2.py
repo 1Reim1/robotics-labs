@@ -3,8 +3,8 @@ from itertools import permutations
 
 def main():
     arr = [1, 2, 3]
-    for sub_list in permutations(arr):
-        print(sub_list)
+    for p in permutations(arr):
+        print(p)
 
 
 if __name__ == "__main__":

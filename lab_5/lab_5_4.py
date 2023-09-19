@@ -3,10 +3,10 @@ def main():
     # arr = [1, 2, 3, 4, 7, 8]
     for item in arr:
         if type(item) == list:
-            print("Є")
+            print("Exists")
             break
     else:
-        print("Нема")
+        print("Does not exists")
 
 
 if __name__ == "__main__":

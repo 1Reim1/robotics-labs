@@ -7,7 +7,7 @@ def main():
     c = float(input("c: "))
     d = b * b - 4 * a * c
     if d < 0:
-        print("Немає розв’язків")
+        print("There are no solutions")
         return
     print(f"x1: {(-b + sqrt(d)) / (2 * a)}")
     print(f"x2: {(-b - sqrt(d)) / (2 * a)}")

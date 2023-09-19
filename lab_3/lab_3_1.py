@@ -3,9 +3,9 @@ import re
 
 def main():
     s = input()
-    print(f"Кількість символів: {len(s)}")
+    print(f"Number of characters: {len(s)}")
     words = len(re.findall('\\w+', s))
-    print(f"Кількість слів: {words}")
+    print(f"Number of words: {words}")
 
 
 if __name__ == "__main__":
