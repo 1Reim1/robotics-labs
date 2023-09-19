@@ -2,9 +2,9 @@ import os.path
 
 
 def main():
-    filename = r"folder/file.txt"
-    filename_1 = r"folder/first.txt"
-    filename_2 = r"folder/second.txt"
+    filename = r"folder\file.txt"
+    filename_1 = r"folder\first.txt"
+    filename_2 = r"folder\second.txt"
     text = 'This is very cool\ntwo lines text'
     with open(filename, "w") as file, open(filename_1, "w") as file1, open(filename_2, "w") as file2:
         lines = text.splitlines()
